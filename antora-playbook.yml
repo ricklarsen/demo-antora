@@ -1,0 +1,18 @@
+site:
+  title: demo docs
+content:
+  sources:
+  - url: ~/antora-component/demo-component-a
+    branches: master
+  - url: ~/antora-release-notes
+    branches: 2.16.0, 2.17.0, master
+ui:
+  bundle:
+   url: ~/antora-ui/antora-ui-default/build/ui-bundle.zip
+   snapshot: true
+asciidoc:
+  attributes: 
+    toc: right
+    external-link: '&raquo;'
+    ddf-branding: DDF
+    branding: DDF

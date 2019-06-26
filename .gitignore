@@ -1,0 +1,13 @@
+*.project
+*.settings
+*.classpath
+*.metadata
+*.iml
+*.idea
+*.checkstyle
+*.DS_Store
+
+target/
+build/
+node_modules/
+node/
