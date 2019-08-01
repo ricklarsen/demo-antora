@@ -6,9 +6,9 @@ content:
   - url: .
     branches: HEAD
     start_path: home
-  - url: https://github.com/ricklarsen/using-docs-demo.git  
+  - url: ~/using
     branches: HEAD
-  - url: https://github.com/ricklarsen/quickstart-docs-demo.git
+  - url: ~/quickstart
     branches: HEAD
 ui:
   bundle:
